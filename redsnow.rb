@@ -14,6 +14,7 @@ class RedSnow
       @vert_speed=0.3 + (rand/4)
       @horz_speed=(0.5 - rand)/2
       @symbol=(rand > 0.5) ? "*" : "."
+      if @symbol == "*" then @horz_speed = @horz_speed * 2 end
     end
   end
 
