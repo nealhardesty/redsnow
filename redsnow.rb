@@ -4,7 +4,7 @@ require 'curses'
 class RedSnow
 
   SLEEP_TIME = 0.01
-  FLAKE_FACTOR = 1.2
+  FLAKE_FACTOR = 2
 
   class Flake
     attr_accessor :x, :y, :vert_speed, :horz_speed, :symbol
